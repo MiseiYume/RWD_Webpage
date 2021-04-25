@@ -1,0 +1,476 @@
+@media screen 
+{
+    html 
+    {
+        width: 100%; 
+        background-color: #ffffff;
+    }
+    .header
+    {
+        height: 15%;
+        width: 100%;
+    }
+    body 
+    {
+        width: 80%;
+        height: 2000px;
+        margin: auto;
+        background:
+            radial-gradient(circle at 110% 15%,#f3ddc3de 10%, transparent 20%),
+            radial-gradient(circle at 125% 50%,#f3ddc3de 10%, transparent 20%),
+            radial-gradient(circle at 125% 75%,#f3ddc3de 10%, transparent 20%),
+            radial-gradient(circle at 110% 90%,#f3ddc3de 10%, transparent 20%),
+            linear-gradient(to right, #caf2f1, 70%, #f3ddc3de);
+    }  
+    #sideMenu 
+    {
+        position: fixed;
+        top: 25vh;
+        right: 10%;
+    }
+    footer
+    {
+        height: 15%;
+    }
+    .bottomText
+    {
+        position: absolute;
+        right: 20%;
+        left: 15%;
+        top: -5%;
+        bottom: 5%;
+        margin: -1% auto auto 5%;
+        width: auto;
+        height: auto;
+    }
+    #socialBottomInstagram
+    {
+        float: left;
+        width: 2%;
+        height: auto;
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+    #socialBottomFacebook
+    {
+        float: left;
+        width: 2%;
+        height: auto;
+        margin-top: 2%;
+    }
+    .langChanger
+    {
+        float: right;
+        height: 100%;
+        width: 10%;
+        margin: 0;
+    }
+        #langChangerPolish
+        {
+            float: left;
+            font-size: 120%;
+            margin-top: 40%;
+        }
+        #langChangerEnglish
+        {
+            float: left;
+            font-size: 120%;
+            margin-top: 40%;
+        }
+    .framedFormattedText
+    {
+        width: 17%;
+    }
+}
+@media screen and (max-width: 768px) 
+{
+    html 
+    { 
+        max-width: 100%; 
+        background:
+        radial-gradient(circle at 110% 15%,#f3ddc3de 10%, transparent 20%),
+        radial-gradient(circle at 125% 50%,#f3ddc3de 10%, transparent 20%),
+        radial-gradient(circle at 125% 75%,#f3ddc3de 10%, transparent 20%),
+        radial-gradient(circle at 110% 90%,#f3ddc3de 10%, transparent 20%),
+        linear-gradient(to right, #caf2f1, 70%, #f3ddc3de);
+    }
+    .header
+    {
+        height: 10vw;
+        max-width: 100%;
+        width: 100%;
+    }
+    body 
+    { 
+        max-width: 100%;
+        width: 100vw; 
+        margin: 0; 
+        border: none; 
+    }
+    #sideMenu 
+    {
+        position: fixed;
+        right: 0;
+        top: 20vh;
+    }
+    footer
+    {
+        height: 7vw;
+    }
+    .socialBottom
+    {
+        float: left;
+        width: 20%;
+        height: 100%;
+    }
+        #socialBottomInstagram
+        {
+            float: left;
+            width: 10%;
+            height: auto;
+            margin-top: 0;
+        }
+        #socialBottomFacebook
+        {
+            float: left;
+            width: 10%;
+            height: auto;
+            margin-top: 0;
+        }
+        .bottomText
+        {
+            max-height: 100%;
+            position: absolute;
+            right: 15%;
+            left: 15%;
+            top: -5%;
+            bottom: 5%;
+        }
+        .socialTop
+        {
+            float: left;
+            margin: 4% auto auto 35%;
+        }
+        .langChanger
+        {
+            float: right;
+            height: 100%;
+            width: 13%;
+            max-width: 13%;
+            margin: 0;
+        }
+            .langChanger #langChangerPolish
+            {
+                float: left;
+                font-size: 120%;
+                margin-top: 30%;
+            }
+            .langChanger #langChangerEnglish
+            {
+                float: left;
+                font-size: 120%;
+                margin-top: 30%;
+            }
+    .framedFormattedText
+    {
+        width: 30%;
+    }
+}
+
+#riseLogoTop 
+{
+    float: left;
+    width: 15%;
+    height: 100%;
+    margin: 0;
+}
+    #riseLogoTop > img
+    {
+        max-width: 60%;
+        max-height: 80%;
+        margin-top: 20%;;
+    }
+.socialTop
+{
+    float: left;
+    height: 100%;
+    max-width: 40%;
+    width: 10%;
+    margin: 0 31%;
+}
+    #socialTopInstagram
+    {
+        float: left;
+        max-width: 30%;
+        height: auto;
+        margin: 45% auto auto 10%;
+    }
+    #socialSpacer
+    {
+        float: left;
+        width: 15%;
+        height: 100%;
+    }
+    #socialTopFacebook
+    {
+        float: left;
+        max-width: 30%;
+        height: auto;
+        margin: 45% 10% auto auto;
+    }
+
+body
+{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#segment1
+{
+    width: 100%;
+    margin-top: 4.5%;
+}
+#segment2
+{
+    width: 100%;
+    margin-top: 18%;
+}
+        #segment2 > #leftPanel
+        {
+            width: 50%;
+            float: left;
+        }
+                #riseLogoS2
+                {
+                    width: 30%;
+                    height: auto;
+                    margin-left: 15%;
+                }
+        #segment2 > #rightPanel
+        {
+            width: 50%;
+            float: left;
+        }
+                #margin01
+                {
+                    float: left;
+                    width: 10%;
+                    height: 100%;
+                    font-family: ff-good-headline-web-pro-ext;;
+                    letter-spacing: 0.1em;
+                    font-size: 150%;
+                    font-weight: 600;
+                    color: #525252af;
+                    text-decoration: none;
+                    padding-bottom: 20%;
+                    margin-top: -3%;
+                }
+                #segment2 > #textWrapper
+                {
+                    float: left;
+                    max-width: 30%;
+                    height: 100%;
+                }
+                #riseInfo
+                {
+                    font-family: sofia-pro;
+                    width: 75%;
+                    font-size: 100%;
+                    text-align: left;
+                    font-weight: thin;
+                    color: #525252af;
+                    text-decoration: none;
+                }
+                .directorInfo
+                {
+                    width: 100%;
+                    text-align: left;
+                }
+                            .directorGrey
+                            {
+                                
+                                float: left;
+                                font-family: sofia-pro;
+                                width: 75%;
+                                font-size: 100%;
+                                color: #525252af;
+                            }
+                            .directorBlack
+                            {
+                                float: left;
+                            }
+                            .directorCheck
+                            {
+                                float: left;
+                            }
+    
+    
+#sideMenu
+{
+    width: 4%;
+    background: rgb(66, 66, 66);
+}
+    #sideMenu::after 
+    {
+        content: "";
+        height: 0;
+        width: 100%;
+        padding-bottom: 100%;
+        display: block;
+    }
+        #sideMenuContents
+        {
+            width: 50%;
+            max-height: 50%;
+            margin: 24% 25% 24% 25%;
+            position: absolute;
+        }
+            #horizontalLine
+            {
+                width: 100%;
+                height: auto;
+                margin: auto;
+            }
+
+
+
+footer
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffff;
+}
+    .inFooter 
+    {
+        height: 100%;
+        width: 100%;
+    }
+        #riseLogoBottom
+        {
+            margin: 1% 4% auto 2%;
+            float: left;
+            width: 6.5%;
+            height: auto;
+        }
+            
+        .bottomSpacer
+        {
+            width: 20%;
+        }
+        .bottomText
+        {
+            float: left;
+            font-size: 1.7vw;
+            height: 100%;
+            width: 60%;
+            font-family: ff-good-headline-web-pro-ext;
+            margin: auto auto auto 12vw;
+        }
+            .bottomText > .text
+            {
+                float: left;
+                margin-right: 8%;
+            }
+                #bottomTextEnd
+                {
+                    margin-right: 0;
+                }
+        #JWGroup
+        {
+            float: right;
+            width: 10%;
+            height: auto;
+            margin: 1.75% 2vw;
+        }
+
+#textUnpack
+{
+    margin-top: 8.5%;
+}
+.formattedText
+{
+    font-family: ff-good-headline-web-pro-ext;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 200%;
+    color: #333d3c;
+    text-decoration: none;
+}
+.formattedH1
+{
+    font-family: ff-good-headline-web-pro-ext;
+    font-weight: 900;
+    text-shadow: 1px 0 #333d3c;
+    letter-spacing: 0.1em;
+    font-size: 550%;
+    color: #333d3c;
+    text-decoration: none;
+    margin-top: -0.5%;
+}
+
+.framedFormattedText
+{
+    box-sizing: border-box;
+    margin: -2% auto auto auto;
+    font-family: ff-good-headline-web-pro-ext;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    text-shadow: 0.5px 0 #ffffff;
+    font-size: 160%;
+    color: #ffffff;
+    text-decoration: none;
+    outline: solid #ffffff;
+    outline-offset: 5px;
+}
+#formattedH3
+{
+    font-family: ff-good-headline-web-pro-ext;
+    font-weight: 1200;
+    letter-spacing: 0.1em;
+    font-size: 150%;
+    margin: auto;
+    margin-top: 18%;
+    color: #333d3c;
+    text-decoration: none;
+}
+#verticalLine
+{
+    height: 20vh;
+    width: 0%;
+    margin: auto;
+    outline: solid #333d3c 1.5px;
+}
+
+a:link 
+{
+    font-family: ff-good-headline-web-pro-ext;
+    font-weight: 900;
+    font-size: 17;
+    color: #333d3c;
+    text-decoration: none;
+}
+a:visited 
+{
+    font-family: ff-good-headline-web-pro-ext;
+    font-weight: 900;
+    color: #333d3c;
+    text-decoration: none;
+}
+a:hover 
+{
+    font-family: ff-good-headline-web-pro-ext;
+    font-weight: 900;
+    color: #333d3c;
+    text-decoration: none;
+}
+a:active 
+{
+    font-family: ff-good-headline-web-pro-ext;
+    font-weight: 900;
+    color: #333d3c;
+    text-decoration: none;
+}
+
