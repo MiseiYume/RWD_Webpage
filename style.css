@@ -231,6 +231,7 @@ body
         #segment1
         {
             width: 100%;
+            transform: translateY(-180%);
         }
                 #img1
                 {
@@ -238,7 +239,8 @@ body
                     display: inline;
                     height: auto;
                     width: 45%;
-                    right: 25.5%;
+                    right: 25.3%;
+                    top: 40%;
                 }
                 #img2
                 {
@@ -247,6 +249,13 @@ body
                     top: 150%;
                     right: 32%;
                     width: auto;
+                }
+                #bubble1
+                {
+                    position: absolute;
+                    top: 20%;
+                    right:65%;
+                    width: 2%;
                 }
                 #textUnpack
                 {
@@ -267,24 +276,26 @@ body
                             font-family: ff-good-headline-web-pro-ext;
                             font-weight: 900;
                             text-shadow: 1px 0 #333d3c;
-                            letter-spacing: 0.1em;
+                            letter-spacing: 0.15em;
                             font-size: 550%;
                             color: #333d3c;
+                            text-shadow: 3px 0 #333d3c;
                             text-decoration: none;
                         }
 
                         .framedFormattedText
                         {
                             box-sizing: border-box;
-                            margin: -2% auto auto auto;
+                            margin: auto;
+                            transform: translateY(-20%);
                             font-family: ff-good-headline-web-pro-ext;
                             font-weight: 200;
                             letter-spacing: 0.1em;
-                            text-shadow: 0.5px 0 #ffffff;
-                            font-size: 160%;
+                            font-size: 190%;
                             color: #ffffff;
                             text-decoration: none;
                             outline: solid #ffffff;
+                            width: 17.5%;
                             outline-offset: 5px;
                         }
                         #formattedH3
@@ -437,6 +448,7 @@ body
         #sideMenuContents
         {
             width: 50%;
+            height: auto;
             max-height: 50%;
             margin: 24% 25% 24% 25%;
             position: absolute;
