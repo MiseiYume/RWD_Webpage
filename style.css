@@ -1,516 +1,519 @@
 @media screen 
 {
-        html 
+    html 
+    {
+        width: 100%; 
+        height: 5000px;
+        background-color: #ffffff;
+    }
+        body 
         {
-            width: 100%; 
-            height: 5000px;
-            background-color: #ffffff;
-        }
-                body 
-                {
-                    width: 80%;
-                    height: 100%;
-                    margin: auto;
-                    background:
-                        radial-gradient(circle at 110% 15%,#f3ddc3de 10%, transparent 20%),
-                        radial-gradient(circle at 125% 50%,#f3ddc3de 10%, transparent 20%),
-                        radial-gradient(circle at 125% 75%,#f3ddc3de 10%, transparent 20%),
-                        radial-gradient(circle at 110% 90%,#f3ddc3de 10%, transparent 20%),
-                        linear-gradient(to right, #caf2f1, 70%, #f3ddc3de);
-                }  
-                        .header
-                        {
-                            height: 15%;
-                            width: 100%;
-                        }
-                                .langChanger
-                                {
-                                    float: right;
-                                    height: 100%;
-                                    width: 10%;
-                                    margin: 0;
-                                }
-                                        #langChangerPolish
-                                        {
-                                            float: left;
-                                            font-size: 120%;
-                                            margin-top: 40%;
-                                        }
-                                        #langChangerEnglish
-                                        {
-                                            float: left;
-                                            font-size: 120%;
-                                            margin-top: 40%;
-                                        }
-                        #sideMenu 
-                        {
-                            position: fixed;
-                            top: 25vh;
-                            right: 10%;
-                        }
-                        footer
-                        {
-                            height: 15%;
-                        }
-                                .bottomText
-                                {
-                                    position: absolute;
-                                    right: 20%;
-                                    left: 15%;
-                                    top: -5%;
-                                    bottom: 5%;
-                                    margin: -1% auto auto 5%;
-                                    width: auto;
-                                    height: auto;
-                                }
-                                #socialBottomInstagram
-                                {
-                                    float: left;
-                                    width: 2%;
-                                    height: auto;
-                                    margin-top: 2%;
-                                    margin-right: 2%;
-                                }
-                                #socialBottomFacebook
-                                {
-                                    float: left;
-                                    width: 2%;
-                                    height: auto;
-                                    margin-top: 2%;
-                                }
-                        .framedFormattedText
-                        {
-                            width: 17%;
-                        }
-}
-@media screen and (max-width: 768px) 
-{
-        html 
-        { 
-            max-width: 100%; 
+            width: 100%;
             height: 100%;
+            margin: auto;
             background:
-                url("/pageContents/Gift.png"),
                 radial-gradient(circle at 110% 15%,#f3ddc3de 10%, transparent 20%),
                 radial-gradient(circle at 125% 50%,#f3ddc3de 10%, transparent 20%),
                 radial-gradient(circle at 125% 75%,#f3ddc3de 10%, transparent 20%),
                 radial-gradient(circle at 110% 90%,#f3ddc3de 10%, transparent 20%),
                 linear-gradient(to right, #caf2f1, 70%, #f3ddc3de);
-            
-        }
-                body 
-                { 
-                    max-width: 100%;
-                    width: 100vw; 
-                    margin: 0; 
-                    border: none; 
+        }  
+            .header
+            {
+                height: 15%;
+                width: 100%;
+            }
+                .langChanger
+                {
+                    float: right;
+                    height: 100%;
+                    width: 10%;
+                    margin: 0;
                 }
-                        .framedFormattedText
-                        {
-                            width: 30%;
-                        }
-                        .header
-                        {
-                            height: 10vw;
-                            max-width: 100%;
-                            width: 100%;
-                        }
-                                .socialTop
-                                    {
-                                        float: left;
-                                        margin: 4% auto auto 35%;
-                                    }
-                                        .langChanger
-                                        {
-                                            float: right;
-                                            height: 100%;
-                                            width: 13%;
-                                            max-width: 13%;
-                                            margin: 0;
-                                        }
-                                                .langChanger #langChangerPolish
-                                                {
-                                                    float: left;
-                                                    font-size: 120%;
-                                                    margin-top: 30%;
-                                                }
-                                                .langChanger #langChangerEnglish
-                                                {
-                                                    float: left;
-                                                    font-size: 120%;
-                                                    margin-top: 30%;
-                                                }
-                        #sideMenu 
-                        {
-                            position: fixed;
-                            right: 0;
-                            top: 20vh;
-                        }
-                        footer
-                        {
-                            height: 7vw;
-                        }
-                                .socialBottom
-                                {
-                                    float: left;
-                                    width: 20%;
-                                    height: 100%;
-                                }
-                                        #socialBottomInstagram
-                                        {
-                                            float: left;
-                                            width: 10%;
-                                            height: auto;
-                                            margin-top: 0;
-                                        }
-                                        #socialBottomFacebook
-                                        {
-                                            float: left;
-                                            width: 10%;
-                                            height: auto;
-                                            margin-top: 0;
-                                        }
-                                        .bottomText
-                                        {
-                                            max-height: 100%;
-                                            position: absolute;
-                                            right: 15%;
-                                            left: 15%;
-                                            top: -5%;
-                                            bottom: 5%;
-                                        }
+                    #langChangerPolish
+                    {
+                        float: left;
+                        font-size: 120%;
+                        margin-top: 40%;
+                    }
+                    #langChangerEnglish
+                    {
+                        float: left;
+                        font-size: 120%;
+                        margin-top: 40%;
+                    }
+            #sideMenu 
+            {
+                position: fixed;
+                top: 45vh;
+                right: 0;
+            }
+            footer
+            {
+                height: 15%;
+            }
+                .bottomText
+                {
+                    position: absolute;
+                    right: 20%;
+                    left: 15%;
+                    top: -5%;
+                    bottom: 5%;
+                    margin: -1% auto auto 5%;
+                    width: auto;
+                    height: auto;
+                }
+                #socialBottomInstagram
+                {
+                    float: left;
+                    width: 2%;
+                    height: auto;
+                    margin-top: 2%;
+                    margin-right: 2%;
+                }
+                #socialBottomFacebook
+                {
+                    float: left;
+                    width: 2%;
+                    height: auto;
+                    margin-top: 2%;
+                }
+            .framedFormattedText
+            {
+                width: 17%;
+            }
 }
-
+@media screen and (max-width: 768px) 
+{
+    html 
+    { 
+        max-width: 100%; 
+        height: 100%;
+        background:
+            url("/pageContents/Gift.png"),
+            radial-gradient(circle at 110% 15%,#f3ddc3de 10%, transparent 20%),
+            radial-gradient(circle at 125% 50%,#f3ddc3de 10%, transparent 20%),
+            radial-gradient(circle at 125% 75%,#f3ddc3de 10%, transparent 20%),
+            radial-gradient(circle at 110% 90%,#f3ddc3de 10%, transparent 20%),
+            linear-gradient(to right, #caf2f1, 70%, #f3ddc3de);
+        
+    }
+        body 
+        { 
+            max-width: 100%;
+            width: 100vw; 
+            margin: 0; 
+            border: none; 
+        }
+            .framedFormattedText
+            {
+                width: 30%;
+            }
+            .header
+            {
+                height: 10vw;
+                max-width: 100%;
+                width: 100%;
+            }
+                .socialTop
+                {
+                    float: left;
+                    margin: 4% auto auto 35%;
+                }
+                    .langChanger
+                    {
+                        float: right;
+                        height: 100%;
+                        width: 13%;
+                        max-width: 13%;
+                        margin: 0;
+                    }
+                        .langChanger #langChangerPolish
+                        {
+                            float: left;
+                            font-size: 120%;
+                            margin-top: 30%;
+                        }
+                        .langChanger #langChangerEnglish
+                        {
+                            float: left;
+                            font-size: 120%;
+                            margin-top: 30%;
+                        }
+                #sideMenu 
+                {
+                    position: fixed;
+                    right: 0;
+                    top: 45vh;
+                }
+                footer
+                {
+                    height: 7vw;
+                }
+                    .socialBottom
+                    {
+                        float: left;
+                        width: 20%;
+                        height: 100%;
+                    }
+                        #socialBottomInstagram
+                        {
+                            float: left;
+                            width: 10%;
+                            height: auto;
+                            margin-top: 0;
+                        }
+                        #socialBottomFacebook
+                        {
+                            float: left;
+                            width: 10%;
+                            height: auto;
+                            margin-top: 0;
+                        }
+                        .bottomText
+                        {
+                            max-height: 100%;
+                            position: absolute;
+                            right: 15%;
+                            left: 15%;
+                            top: -5%;
+                            bottom: 5%;
+                        }
+}
 body
 {
     display: block;
     text-align: center;
     margin: auto;
 }
-        #riseLogoTop 
+    #riseLogoTop 
+    {
+        float: left;
+        width: 15%;
+        height: 100%;
+        margin: 0;
+    }
+        #riseLogoTop > img
+        {
+            max-width: 60%;
+            max-height: 80%;
+            margin-top: 20%;;
+        }
+        .socialTop
         {
             float: left;
-            width: 15%;
             height: 100%;
-            margin: 0;
+            max-width: 40%;
+            width: 10%;
+            margin: 0 31%;
         }
-                #riseLogoTop > img
-                {
-                    max-width: 60%;
-                    max-height: 80%;
-                    margin-top: 20%;;
-                }
-                .socialTop
-                {
-                    float: left;
-                    height: 100%;
-                    max-width: 40%;
-                    width: 10%;
-                    margin: 0 31%;
-                }
-                        #socialTopInstagram
-                        {
-                            float: left;
-                            max-width: 30%;
-                            height: auto;
-                            margin: 45% auto auto 10%;
-                        }
-                        #socialSpacer
-                        {
-                            float: left;
-                            width: 15%;
-                            height: 100%;
-                        }
-                        #socialTopFacebook
-                        {
-                            float: left;
-                            max-width: 30%;
-                            height: auto;
-                            margin: 45% 10% auto auto;
-                        }
-        #segment1
+            #socialTopInstagram
+            {
+                float: left;
+                max-width: 30%;
+                height: auto;
+                margin: 45% auto auto 10%;
+            }
+            #socialSpacer
+            {
+                float: left;
+                width: 15%;
+                height: 100%;
+            }
+            #socialTopFacebook
+            {
+                float: left;
+                max-width: 30%;
+                height: auto;
+                margin: 45% 10% auto auto;
+            }
+    #segment1
+    {
+        width: 100%;
+        transform: translateY(-180%);
+    }
+        #img1
         {
-            width: 100%;
-            transform: translateY(-180%);
+            position: absolute;
+            display: inline;
+            height: auto;
+            width: 50%;
+            right: 22.5%;
+            top: 40%;
+            z-index: 2;
         }
-                #img1
-                {
-                    position: absolute;
-                    display: inline;
-                    height: auto;
-                    width: 45%;
-                    right: 25.3%;
-                    top: 40%;
-                }
-                #img2
-                {
-                    position: absolute;
-                    height: 45%;
-                    top: 150%;
-                    right: 32%;
-                    width: auto;
-                }
-                #bubble1
-                {
-                    position: absolute;
-                    top: 20%;
-                    right:65%;
-                    width: 2%;
-                }
-                #textUnpack
-                {
-                    margin-top: 0%;
-                    position: relative;
-                }
-                        .formattedText
-                        {
-                            font-family: ff-good-headline-web-pro-ext;
-                            font-weight: 200;
-                            letter-spacing: 0.1em;
-                            font-size: 200%;
-                            color: #333d3c;
-                            text-decoration: none;
-                        }
-                        .formattedH1
-                        {
-                            font-family: ff-good-headline-web-pro-ext;
-                            font-weight: 900;
-                            text-shadow: 1px 0 #333d3c;
-                            letter-spacing: 0.15em;
-                            font-size: 550%;
-                            color: #333d3c;
-                            text-shadow: 3px 0 #333d3c;
-                            text-decoration: none;
-                        }
+        #img2
+        {
+            z-index: 1;
+            position: absolute;
+            height: 170%;
+            top: 150%;
+            right: 25%;
+            width: auto;
+        }
+        #textUnpack
+        {
+            margin-top: 0%;
+            position: relative;
+        }
+            .formattedText
+            {
+                margin-top: 10%;
+                font-family: ff-good-headline-web-pro-ext;
+                font-weight: 200;
+                letter-spacing: 0.1em;
+                font-size: 230%;
+                color: #333d3c;
+                position: relative;
+                text-decoration: none;
+                z-index: 3;
+            }
+            .formattedH1
+            {
+                font-family: ff-good-headline-web-pro-ext;
+                font-weight: 900;
+                margin-top: 0;
+                text-shadow: 1px 0 #333d3c;
+                letter-spacing: 0.15em;
+                font-size: 700%;
+                color: #333d3c;
+                text-shadow: 3px 0 #333d3c;
+                text-decoration: none;
+                position: inherit;
+                z-index: 3;
+            }
 
-                        .framedFormattedText
-                        {
-                            box-sizing: border-box;
-                            margin: auto;
-                            transform: translateY(-20%);
-                            font-family: ff-good-headline-web-pro-ext;
-                            font-weight: 200;
-                            letter-spacing: 0.1em;
-                            font-size: 190%;
-                            color: #ffffff;
-                            text-decoration: none;
-                            outline: solid #ffffff;
-                            width: 17.5%;
-                            outline-offset: 5px;
-                        }
-                        #formattedH3
-                        {
-                            font-family: ff-good-headline-web-pro-ext;
-                            font-weight: 1200;
-                            letter-spacing: 0.1em;
-                            font-size: 150%;
-                            width: 10%;
-                            left: 45%;
-                            top: 155%;
-                            color: #333d3c;
-                            text-decoration: none;
-                            position: absolute;
-                        }
-                        #verticalLine
-                        {
-                            
-                            height: 20vh;
-                            width: 0%;
-                            position: absolute;
-                            right: 50%;
-                            width:0%;
-                            outline: solid #333d3c 1.5px;
-                        }
+            .framedFormattedText
+            {
+                box-sizing: border-box;
+                margin: auto;
+                position: relative;
+                transform: translateY(-20%);
+                font-family: ff-good-headline-web-pro-ext;
+                font-weight: 200;
+                letter-spacing: 0.1em;
+                font-size: 190%;
+                color: #ffffff;
+                text-decoration: none;
+                outline: solid #ffffff;
+                width: 17.5%;
+                outline-offset: 5px;
+                z-index: 3;
+            }
+            #formattedH3
+            {
+                font-family: ff-good-headline-web-pro-ext;
+                font-weight: 900;
+                letter-spacing: 0.1em;
+                font-size: 130%;
+                width: 15%;
+                left: 42.5%;
+                top: 170%;
+                color: #333d3c;
+                text-decoration: none;
+                position: absolute;
+                z-index: 5;
+            }
+            #verticalLine
+            {
+                
+                height: 14vh;
+                width: 0%;
+                position: absolute;
+                right: 50%;
+                top: 185%;
+                width:0%;
+                outline: solid #333d3c 1.5px;
+                z-index: 4;
+            }
 #segment2
 {
     width: 100%;
     margin-top: 18%;
 }
-        #segment2 > #leftPanel
+    #segment2 > #leftPanel
+    {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+        #riseLogoS2
         {
-            width: 50%;
-            height: 100%;
-            float: left;
+            width: 30%;
+            height: auto;
+            margin-left: 15%;
         }
-                #riseLogoS2
-                {
-                    width: 30%;
-                    height: auto;
-                    margin-left: 15%;
-                }
-        #segment2 > #rightPanel
+    #segment2 > #rightPanel
+    {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+        #margin01
         {
-            width: 50%;
-            height: 100%;
             float: left;
+            width: 10%;
+            height: 100%;
+            font-family: ff-good-headline-web-pro-ext;;
+            letter-spacing: 0.1em;
+            font-size: 150%;
+            font-weight: 600;
+            color: #525252af;
+            text-decoration: none;
+            margin-top: -3%;
+            margin-bottom: 100%;
         }
-                #margin01
-                {
-                    float: left;
-                    width: 10%;
-                    height: 100%;
-                    font-family: ff-good-headline-web-pro-ext;;
-                    letter-spacing: 0.1em;
-                    font-size: 150%;
-                    font-weight: 600;
-                    color: #525252af;
-                    text-decoration: none;
-                    margin-top: -3%;
-                    margin-bottom: 100%;
-                }
-                #segment2 > #textWrapper
-                {
-                    float: left;
-                    max-width: 30%;
-                    height: 60%;
-                }
-                #riseInfo
-                {
-                    font-family: sofia-pro;
-                    width: 75%;
-                    font-size: 100%;
-                    text-align: left;
-                    font-weight: thin;
-                    color: #525252af;
-                    text-decoration: none;
-                    padding-bottom: 4%;
-                }
-                .directorInfo
-                {
-                    width: 100%;
-                    height: 40%;
-                    line-height: 200%;
-                    text-align: left;
-                }
-                            .directorGrey
-                            {
-                                float: left;
-                                font-family: ff-good-headline-web-pro-ext;
-                                font-size: 120%;
-                                font-weight: 600;
-                                color: #525252af;
-                                width: 25%;
-                                text-align: left;
-                                margin-top: 2%;
-                            }
-                            .directorBlack
-                            {
-                                float: left;
-                                font-family: ff-good-headline-web-pro-ext;
-                                font-size: 165%;
-                                color: #333d3c;
-                                width: 50%;
-                                text-align: left;
-                                font-weight: 900;
-                                margin-left: -5%;
-                                margin-top: 1%;
-                                text-shadow: 0.5px 0 #333d3c;
-                            }
-                            .directorCheck
-                            {
-                                float: left;
-                                background-color: #85858596;
-                                padding: 0.5%;
-                                letter-spacing: 0.1em;
-                                font-weight: 800;
-                                font-size: 150%;
-                                color: #ffffff;
-                                margin: auto auto 2% auto;
-                                font-family: ff-good-headline-web-pro-ext;
-                            }
-                            #firstLine
-                            {
-                                line-height: 6;
-                                height: 40%;
-                                margin-bottom: 5%;
-                                background-color: #333d3c;
-                            }
-                            #secondLine
-                            {
-                                line-height: 1.6;
-                                height: 40%;
-                            }
-    
-    
+        #segment2 > #textWrapper
+        {
+            float: left;
+            max-width: 30%;
+            height: 60%;
+        }
+        #riseInfo
+        {
+            font-family: sofia-pro;
+            width: 75%;
+            font-size: 100%;
+            text-align: left;
+            font-weight: thin;
+            color: #525252af;
+            text-decoration: none;
+            padding-bottom: 4%;
+        }
+        .directorInfo
+        {
+            width: 100%;
+            height: 40%;
+            line-height: 200%;
+            text-align: left;
+        }
+            .directorGrey
+            {
+                float: left;
+                font-family: ff-good-headline-web-pro-ext;
+                font-size: 120%;
+                font-weight: 600;
+                color: #525252af;
+                width: 25%;
+                text-align: left;
+                margin-top: 2%;
+            }
+            .directorBlack
+            {
+                float: left;
+                font-family: ff-good-headline-web-pro-ext;
+                font-size: 165%;
+                color: #333d3c;
+                width: 50%;
+                text-align: left;
+                font-weight: 900;
+                margin-left: -5%;
+                margin-top: 1%;
+                text-shadow: 0.5px 0 #333d3c;
+            }
+            .directorCheck
+            {
+                float: left;
+                background-color: #85858596;
+                padding: 0.5%;
+                letter-spacing: 0.1em;
+                font-weight: 800;
+                font-size: 150%;
+                color: #ffffff;
+                margin: auto auto 2% auto;
+                font-family: ff-good-headline-web-pro-ext;
+            }
+            #firstLine
+            {
+                line-height: 6;
+                height: 40%;
+                margin-bottom: 5%;
+                background-color: #333d3c;
+            }
+            #secondLine
+            {
+                line-height: 1.6;
+                height: 40%;
+            }
 #sideMenu
 {
-    width: 4%;
+    width: 3%;
     background: rgb(66, 66, 66);
 }
-    #sideMenu::after 
+#sideMenu::after 
+{
+    content: "";
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+    display: block;
+}
+    #sideMenuContents
     {
-        content: "";
-        height: 0;
-        width: 100%;
-        padding-bottom: 100%;
-        display: block;
+        width: 50%;
+        height: auto;
+        max-height: 50%;
+        margin: 20% 25% 30% 25%;
+        position: absolute;
     }
-        #sideMenuContents
+        #horizontalLine
         {
-            width: 50%;
+            width: 100%;
             height: auto;
-            max-height: 50%;
-            margin: 24% 25% 24% 25%;
-            position: absolute;
+            margin: auto;
         }
-            #horizontalLine
-            {
-                width: 100%;
-                height: auto;
-                margin: auto;
-            }
 
 
 
 footer
 {
     width: 100%;
-    position: absolute;
+    float: left;
     bottom: 0;
     background-color: #ffffff;
 }
-    .inFooter 
+.inFooter 
+{
+    height: 100%;
+    width: 100%;
+}
+    #riseLogoBottom
     {
-        height: 100%;
-        width: 100%;
+        margin: 1% 4% auto 2%;
+        float: left;
+        width: 6.5%;
+        height: auto;
     }
-        #riseLogoBottom
+        
+    .bottomSpacer
+    {
+        width: 20%;
+    }
+    .bottomText
+    {
+        float: left;
+        font-size: 1.7vw;
+        height: 100%;
+        width: 60%;
+        font-family: ff-good-headline-web-pro-ext;
+        margin: auto auto auto 12vw;
+    }
+        .bottomText > .text
         {
-            margin: 1% 4% auto 2%;
             float: left;
-            width: 6.5%;
-            height: auto;
+            margin-right: 8%;
         }
-            
-        .bottomSpacer
-        {
-            width: 20%;
-        }
-        .bottomText
-        {
-            float: left;
-            font-size: 1.7vw;
-            height: 100%;
-            width: 60%;
-            font-family: ff-good-headline-web-pro-ext;
-            margin: auto auto auto 12vw;
-        }
-            .bottomText > .text
+            #bottomTextEnd
             {
-                float: left;
-                margin-right: 8%;
+                margin-right: 0;
             }
-                #bottomTextEnd
-                {
-                    margin-right: 0;
-                }
-        #JWGroup
-        {
-            float: right;
-            width: 10%;
-            height: auto;
-            margin: 1.75% 2vw;
-        }
+    #JWGroup
+    {
+        float: right;
+        width: 10%;
+        height: auto;
+        margin: 1.75% 2vw;
+    }
 
 
 a:link 
@@ -543,3 +546,89 @@ a:active
     text-decoration: none;
 }
 
+#bubble1
+{
+    position: absolute;
+    top: 28%;
+    right: 67%;
+    width: 2.5%;
+}
+#bubble2
+{
+    position: absolute;
+    top: 52%;
+    right: 73%;
+    width: 4%;
+}
+#bubble3
+{
+    position: absolute;
+    top: -7%;
+    right: 55%;
+    width: 8%;
+}
+#bubble4
+{
+    position: absolute;
+    top: 80%;
+    right: 37%;
+    width: 5%;
+}
+#bubble5
+{
+    position: absolute;
+    top: 13.5%;
+    right: 70%;
+    width: 6.5%;
+}
+#bubble6
+{
+    position: absolute;
+    top: 20%;
+    right: 69.5%;
+    width: 2.5%;
+}
+#bubble7
+{
+    position: absolute;
+    top: 2%;
+    right: 71%;
+    width: 2.5%;
+}
+#bubble8
+{
+    position: absolute;
+    top: 59%;
+    right: 61.5%;
+    width: 4%;
+}
+#bubble9
+{
+    position: absolute;
+    top: 69%;
+    right: 33.5%;
+    width: 2%;
+}
+#bubble10
+{
+    position: absolute;
+    top: 100%;
+    left: 11%;
+    width: 4%;
+}
+#bubble11
+{
+    position: absolute;
+    top: 90%;
+    left: -2%;
+    width: 20%;
+    opacity: 0.5;
+}
+#bubble12
+{
+    position: absolute;
+    top: 0%;
+    right: 52%;
+    width: 10%;
+    z-index: 0;
+}
